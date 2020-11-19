@@ -1,33 +1,18 @@
 body{
-    padding: 2rem;
+    
     font-weight: bold;
     background-image: url("../img/libros.jpg");
     background-position-x: 35rem;
+    background-size: cover;
 }
 
 header{
     justify-content: center;
 }
 
-#button{
-    display: flex;
-}
-
-#button li{
-    display: flex;
-    flex-direction: row;
-    padding: 0 20px;
-    justify-content: center;
-    
-}
-
-li:hover{
-    background-color: rgb(29, 29, 29);
-}
-
 nav{
-    background-color: rgb(0, 0, 0);
-    justify-content: center;
+    
+    background-color: rgb(0, 0, 0);     
     
 }
 
@@ -38,4 +23,38 @@ a{
     color: white;
     text-decoration: none;
     justify-content: center;
-}   
+}  
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+
+#button li{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1em;    
+    border-radius: 1rem;
+    
+}
+
+li:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+
+
+ 
+
+#center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    
+}
+
+#center article{
+    border: 10px;
+}
